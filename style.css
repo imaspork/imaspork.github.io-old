@@ -1,0 +1,191 @@
+body {
+	margin: 0em;
+	margin-top: 0em;
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	padding: 0;
+}
+
+nav ul {
+	padding: .5em;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+ /* Contact Icons and animation Start */
+
+.middle {
+	margin-top: 500px;
+}
+.fa-twitch {
+	color: #6441a5;
+}
+
+.fa-twitter {
+	color: #38A1F3;
+}
+.btn {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #4c4747;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #f1f1f1;
+	overflow: hidden;
+	position: relative;
+}
+
+.btn i{
+	line-height: 90px;
+	font-size: 26px;
+	transition: 0.9s linear;
+}
+
+
+.btn:hover i{
+	transform:scale (1.3);
+	color: #f1f1f1;
+}
+ /* alters moving part */
+
+.btn::before {
+	content: "";
+	position: absolute;
+	width: 30%;
+	height: 150%;
+	transform:rotate(-45deg);
+	background: #4c4747;
+	left: -90%;
+	top: 90%;
+}
+
+.btn:hover::before{
+	animation: aaa 2s 50;
+	animation-delay: .5s;
+	top: 90%;
+	left: -90%;
+}
+
+@keyframes aaa{
+	0%{
+		left: -90%;
+		top: 90%;
+	}
+	100%{
+		left: 90%;
+		top: -90%;
+	}
+}
+/* Contact Icons and animation End */
+
+.achievements-list div {
+	background: black;
+	margin: 0 auto;
+	color: white;
+	padding: 15px;
+
+}
+.achievements-list div:nth-child(1) {
+	width: 200px;
+}
+
+.achievements-list div:nth-child(2) {
+	width: 400px;
+}
+
+.achievements-list div:nth-child(3) {
+	width: 125px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+header {
+	text-align:center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	line-height: 0px;
+	background:linear-gradient(135deg, #E3E3E3 0%,#4c4747 100%);;
+
+}
+
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.video-center {
+	position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+	padding: 20px 50px;
+}
+h1 {
+	font-weight: bold;
+}
+
+.boxed {
+	padding: 100px 400px 50px 400px;
+}
+
+
+/* Photos and backgrounds */
+
+#home {
+    background-image: url(banner.jpg);
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(junie.jpg);
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(shift.jpg);
+}
+
+#photography {
+	background-image: url(photo.jpg);
+}
+
+#photography2 {
+	background-image: url(photo2.jpg);
+}
+
+#photography3 {
+	background-image: url(photo3.jpg);
+}
+
+#photography4 {
+
+	background-image: url(cat.jpg);
+}
+
+#cinematography {
+	background-image: url(banner.jpg);
+}
