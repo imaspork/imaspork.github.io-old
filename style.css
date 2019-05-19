@@ -182,7 +182,11 @@ h1 {
 }
 
 #photography4 {
-	background-image: url(tucker.jpg);
+<<<<<<< HEAD
+	background-image: url(cat.jpg);
+=======
+	background-image: url(tucker.JPG);
+>>>>>>> e15b45f11c3d5b8b8ca2770e9fc746163eb0ebca
 }
 
 #cinematography {
