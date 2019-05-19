@@ -1,7 +1,9 @@
+/* Formatting */
 body {
 	margin: 0em;
 	margin-top: 0em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	overflow-x: hidden;
 	padding: 0;
 }
@@ -9,16 +11,87 @@ body {
 html {
 	scroll-behavior: smooth;
 }
-nav ul {
-	padding: .5em;
-	text-align: center;
-	display: flex;
-	justify-content: space-around;
-}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
 
+h1 {
+	font-weight: 300;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	padding: 0.4629629629629629vh 1.4814814814814814vh;
+	text-decoration: none;
+	list-style: none;
+}
+
+a {
+	font-weight: 500;
+	text-decoration: none;
+	color: black;
+}
+
+.gamer {
+	text-align: center;
+	margin-top: 14.814814814814813vh;
+
+}
+
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* End formatting */
+
+/* Nav Bar */
+
+p.tylerabout {
+	max-width: 92.59259259259258vh;
+	margin: auto;
+}
+
+.navbar {
+	text-align: center;
+	margin-top: 1.5vh;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position: relative;
+	overflow:hidden;
+}
+
+.bar {
+	width: 11.11111111111111vh;
+	margin: 0 11.1111111111111vh;
+	display: inline-block;
+}
+
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4.62962962962963vh;
+	line-height: 1em;
+	background-color: rgba(101,97,93,0.35);
+}
+
+/* Svg */
 
 .newsvg {
 	fill: #c26000;
@@ -33,7 +106,7 @@ nav ul {
 
 }
 
-
+/* End Svg */
 
  /* Contact Icons and animation Start */
 
@@ -84,6 +157,8 @@ nav ul {
 	top: 90%;
 }
 
+/* End alters moving part */
+
 .btn:hover::before{
 	animation: aaa 2s infinite;
 	animation-delay: .5s;
@@ -102,6 +177,8 @@ nav ul {
 	}
 }
 /* Contact Icons and animation End */
+
+/* Achievement Formatting */
 
 .achievements-list div {
 	background: black;
@@ -122,40 +199,7 @@ nav ul {
 	width: 125px;
 }
 
-li {
-	list-style: none;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-
-header {
-	text-align:center;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 50px;
-	line-height: 0px;
-	background:linear-gradient(135deg, #E3E3E3 0%,#4c4747 100%);;
-
-}
-
-section {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
+/* End Achievement Formatting */
 
 .video-center {
 	position: absolute;
@@ -165,16 +209,6 @@ section {
     transform: translate(-50%, -50%);
 }
 
-div {
-	padding: 20px 50px;
-}
-h1 {
-	font-weight: bold;
-}
-
-.boxed {
-	padding: 100px 400px 50px 400px;
-}
 
 
 /* Photos and backgrounds */
