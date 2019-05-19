@@ -16,22 +16,6 @@ nav ul {
     display: none; 
 }
 
-
-.newsvg {
-	fill: #c26000;
-	width: 100px;
-	height: 90px;
-	position: absolute;
-	top: 700px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin: auto;
-
-}
-
-
-
  /* Contact Icons and animation Start */
 
 .middle {
@@ -208,22 +192,3 @@ h1 {
 #cinematography {
 	background-image: url(banner.jpg);
 }
-<<<<<<< HEAD
-
-/* svg animation start */
-.newsvg {
-    animation: bounce 1.5s infinite;
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(0%);
-    }
-    50% {
-        transform: translateY(12%);
-    }
-    100% {
-        transform: translateY(0%);
-}
-
-/* svg animation end */
