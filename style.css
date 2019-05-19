@@ -151,15 +151,15 @@ h1 {
 /* Photos and backgrounds */
 
 #home {
-    background-image: url(Banner.jpg);
+    background-image: url(banner.jpg);
 }
 
 #about {
-    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(Junie.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(junie.jpg);
 }
 
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(Shift.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(shift.jpg);
 }
 
 #photography {
@@ -175,7 +175,7 @@ h1 {
 }
 
 #photography4 {
-	background-image: url(photo4.JPG);
+	background-image: url(photo4.jpg);
 }
 
 #cinematography {
