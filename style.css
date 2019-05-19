@@ -6,6 +6,9 @@ body {
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
 nav ul {
 	padding: .5em;
 	text-align: center;
