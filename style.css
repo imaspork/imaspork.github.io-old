@@ -81,17 +81,24 @@ nav ul {
 }
 /* Contact Icons and animation End */
 
-.insidetext ul {
-	display: table;
+.achievements-list div {
+	background: black;
 	margin: 0 auto;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	color: white;
+	padding: 15px;
+
 }
-ul {
-    text-decoration: none;
+.achievements-list div:nth-child(1) {
+	width: 200px;
 }
 
+.achievements-list div:nth-child(2) {
+	width: 400px;
+}
+
+.achievements-list div:nth-child(3) {
+	width: 125px;
+}
 
 li {
 	list-style: none;
