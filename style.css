@@ -240,9 +240,37 @@ header {
 	background-image: url(cat.jpg);
 }
 
+#photography5 {
+	background-image: url(brz.jpg);
+}
+
+#photography6 {
+	background-image: url(cat2.jpg);
+}
+
+#photography7 {
+	background-image: url(kitchen.jpg);
+}
+
+#photography8 {
+
+	background-image: url(phone.jpg);
+}
+
+#photography9 {
+
+	background-image: url(school.jpg);
+}
+
+#photography10 {
+
+	background-image: url(shoe.jpg);
+}
 #cinematography {
 	background-image: url(banner.jpg);
 }
+
+
 
 /* svg animation start */
 .newsvg {
