@@ -1,293 +1,210 @@
-/* Formatting */
 body {
-	margin: 0%;
-	margin-top: 0%;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	overflow-x: hidden;
-	padding: 0;
+	margin:0;
+	margin-top:0;
+	font-family:Roboto,sans-serif;
+	font-weight:500;
+	overflow-x:hidden;
+	padding:0
 }
-
 html {
-	scroll-behavior: smooth;
+	scroll-behavior:smooth
 }
-
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar{
+	display:none
 }
-
 h1 {
-	font-weight: 300;
-	font-size: 3vh;
+	font-weight:300;
+	font-size:3vh
 }
-
 li {
-	display: inline-block;
-	text-align: center;
-	padding: 1% 1%;
-	text-decoration: none;
-	list-style: none;
+	display:inline-block;
+	text-align:center;
+	padding:1% 1%;
+	text-decoration:none;
+	list-style:none
 }
-
 a {
-	font-weight: 500;
-	text-decoration: none;
-	color: black;
+	font-weight:500;
+	text-decoration:none;
+	color:#000
 }
-
 .gamer {
-	text-align: center;
-	margin-top: 8%;
-
+	text-align:center;
+	margin-top:8%
 }
-
 section {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed
 }
-
-/* End formatting */
-
-/* Nav Bar */
-
 p.tylerabout {
-	max-width: 92.59259259259258vh;
-	margin: auto;
+	max-width:92.59259259259258vh;
+	margin:auto
 }
-
 .navbar {
-	text-align: center;
-	margin-top: .75%;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+	text-align:center;
+	margin-top:.75%;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0
 }
-
 .bar {
-	width: 3%;
-	margin: 0 8%;
-	display: inline-block;
+	width:3%;
+	margin:0 8%;
+	display:inline-block
 }
-
-
 header {
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 4.62962962962963vh;
-	line-height: 1em;
-	background-color: rgba(101,97,93,0.35);
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:4.62962962962963vh;
+	line-height:1em;
+	background-color:rgba(101,97,93,.35)
 }
-
-/* Svg */
-
 .newsvg {
-	fill: #c26000;
-	width: 100px;
-	height: 90px;
-	position: absolute;
-	top: 75%;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin: auto;
-
+	fill:#c26000;
+	width:100px;
+	height:90px;
+	position:absolute;
+	top:75%;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto
 }
-
-/* End Svg */
-
- /* Contact Icons and animation Start */
-
 .middle {
-	margin-top: 25%;
+	margin-top:25%
 }
 .fa-twitch {
-	color: #6441a5;
+	color:#6441a5
 }
-
 .fa-twitter {
-	color: #38A1F3;
+	color:#38a1f3
 }
 .btn {
-	display: inline-block;
-	width: 90px;
-	height: 90px;
-	background: #4c4747;
-	margin: 10px;
-	border-radius: 20%;
-	box-shadow: 0 5px 15px -5px #00000070;
-	color: #f1f1f1;
-	overflow: hidden;
-	position: relative;
+	display:inline-block;
+	width:90px;
+	height:90px;
+	background:#4c4747;
+	margin:10px;
+	border-radius:20%;
+	box-shadow:0 5px 15px -5px #00000070;
+	color:#f1f1f1;
+	overflow:hidden;
+	position:relative
 }
-
 .btn i{
-	line-height: 90px;
-	font-size: 26px;
-	transition: 0.9s linear;
+	line-height:90px;
+	font-size:26px;
+	transition:.9s linear
 }
-
-
-.btn:hover i{
+.btn:hover i {
 	transform:scale (1.3);
-	color: #f1f1f1;
+	color:#f1f1f1
 }
- /* alters moving part */
-
 .btn::before {
-	content: "";
-	position: absolute;
-	width: 30%;
-	height: 150%;
+	content:"";
+	position:absolute;
+	width:30%;
+	height:150%;
 	transform:rotate(-45deg);
-	background: #4c4747;
-	left: -90%;
-	top: 90%;
+	background:#4c4747;
+	left:-90%;
+	top:90%
 }
-
-/* End alters moving part */
-
-.btn:hover::before{
-	animation: aaa 2s infinite;
-	animation-delay: .5s;
-	top: 90%;
-	left: -90%;
+.btn:hover::before {
+	animation:aaa 2s infinite;
+	animation-delay:.5s;
+	top:90%;
+	left:-90%
 }
-
-@keyframes aaa{
-	0%{
-		left: -90%;
-		top: 90%;
-	}
-	100%{
-		left: 90%;
-		top: -90%;
-	}
+@keyframes arrow {
+	0% {
+		left:-90%;
+		top:90%
 }
-/* Contact Icons and animation End */
-
-/* Achievement Formatting */
-
+	100% {
+		left:90%;
+		top:-90%
+}
+}
 .achievements-list div {
-	background: black;
-	margin: 0 auto;
-	color: white;
-	padding: 15px;
-
+	background:#000;
+	margin:0 auto;
+	color:#fff;
+	padding:15px
 }
 .achievements-list div:nth-child(1) {
-	width: 5%;
+	width:5%
 }
-
 .achievements-list div:nth-child(2) {
-	width: 20%;
+	width:20%
 }
-
 .achievements-list div:nth-child(3) {
-	width: 12.5%;
+	width:12.5%
 }
-
-/* End Achievement Formatting */
-
-.video-center {
-	position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-/* Photos and backgrounds */
-
-
 #home {
-    background-image: url(banner.jpg);
+	background-image:url(banner.jpg)
 }
-
 #about {
-    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(junie.jpg);
+	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.75)),url(junie.jpg)
 }
-
 #contact {
-    background-image: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.75)), url(shift.jpg);
+	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.75)),url(shift.jpg)
 }
-
 #photography {
-	background-image: url(photo.jpg);
+	background-image:url(photo.jpg)
 }
-
 #photography2 {
-	background-image: url(photo2.jpg);
+	background-image:url(photo2.jpg)
 }
-
 #photography3 {
-	background-image: url(photo3.jpg);
+	background-image:url(photo3.jpg)
 }
-
 #photography4 {
-
-	background-image: url(cat.jpg);
+	background-image:url(cat.jpg)
 }
-
 #photography5 {
-	background-image: url(brz.jpg);
+	background-image:url(brz.jpg)
 }
-
 #photography6 {
-	background-image: url(cat2.jpg);
+	background-image:url(cat2.jpg)
 }
-
 #photography7 {
-	background-image: url(kitchen.jpg);
+	background-image:url(kitchen.jpg)
 }
-
 #photography8 {
-
-	background-image: url(phone.jpg);
+	background-image:url(phone.jpg)
 }
-
 #photography9 {
-
-	background-image: url(school.jpg);
+	background-image:url(school.jpg)
 }
-
 #photography10 {
-
-	background-image: url(shoe.jpg);
+	background-image:url(shoe.jpg)
 }
 #cinematography {
-	background-image: url(banner.jpg);
+	background-image:url(banner.jpg)
 }
-
-
-
-/* svg animation start */
 .newsvg {
-    animation: bounce 1.5s infinite;
+	animation:bounce 1.5s infinite
 }
-
 @keyframes bounce {
-    0% {
-        transform: translateY(0%);
-    }
-    50% {
-        transform: translateY(12%);
-    }
-    100% {
-        transform: translateY(0%);
-}
-
-/* svg animation end */
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(12%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+	
