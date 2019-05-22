@@ -110,7 +110,6 @@ header {
 }
 .btn:hover i {
 	transform:scale (1.3);
-	color:#f1f1f1;
 }
 .btn::before {
 	content:"";
