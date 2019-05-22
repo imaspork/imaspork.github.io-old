@@ -47,6 +47,7 @@ p.tylerabout {
 	max-width:92.59259259259258vh;
 	margin:auto
 }
+
 .navbar {
 	text-align:center;
 	margin-top:.75%;
@@ -100,16 +101,16 @@ header {
 	box-shadow:0 5px 15px -5px #00000070;
 	color:#f1f1f1;
 	overflow:hidden;
-	position:relative
+	position:relative;
 }
 .btn i{
 	line-height:90px;
 	font-size:26px;
-	transition:.9s linear
+	transition:.9s linear;
 }
 .btn:hover i {
 	transform:scale (1.3);
-	color:#f1f1f1
+	color:#f1f1f1;
 }
 .btn::before {
 	content:"";
@@ -119,7 +120,7 @@ header {
 	transform:rotate(-45deg);
 	background:#4c4747;
 	left:-90%;
-	top:90%
+	top:90%;
 }
 .btn:hover::before {
 	animation:aaa 2s infinite;
@@ -136,6 +137,7 @@ header {
 		left:90%;
 		top:-90%
 }
+
 }
 .achievements-list div {
 	background:#000;
@@ -194,9 +196,11 @@ header {
 #cinematography {
 	background-image:url(banner.jpg)
 }
+
 .newsvg {
-	animation:bounce 1.5s infinite
+	animation:bounce 1.5s infinite;
 }
+
 @keyframes bounce {
 	0% {
 		transform: translateY(0%);
@@ -207,4 +211,5 @@ header {
 	100% {
 		transform: translateY(0%);
 	}
+}
 	
