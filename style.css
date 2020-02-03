@@ -44,8 +44,11 @@ section {
 	background-attachment:fixed
 }
 p.tylerabout {
-	max-width:92.59259259259258vh;
+	max-width:52.59259259259258vh;
 	margin:auto
+}
+.about2 {
+	max-width:52.59259259259258vh;
 }
 
 .navbar {
@@ -157,7 +160,8 @@ header {
 	background-image:url(banner.jpg)
 }
 #about {
-	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.75)),url(junie.jpg)
+	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.75)),url(junie.jpg);
+
 }
 #contact {
 	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.75)),url(shift.jpg)
