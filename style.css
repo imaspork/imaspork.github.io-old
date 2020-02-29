@@ -1,107 +1,90 @@
-body {
-	margin:0;
-	margin-top:0;
-	font-family:Roboto,sans-serif;
-	font-weight:500;
-	overflow-x:hidden;
-	padding:0
+h1 {
+	font-weight:100;
 }
 html {
-	scroll-behavior:smooth
-}
-::-webkit-scrollbar{
-	display:none
-}
-h1 {
-	font-weight:300;
-	font-size:3vh
-}
-li {
-	display:inline-block;
-	text-align:center;
-	padding:1% 1%;
-	text-decoration:none;
-	list-style:none
-}
-a {
-	font-weight:500;
-	text-decoration:none;
-	color:#000
-}
-.gamer {
-	text-align:center;
-	margin-top:8%
-}
-section {
-	height:100vh;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-align:center;
-	background-size:cover;
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-attachment:fixed
-}
-p.tylerabout {
-	max-width:52.59259259259258vh;
-	margin:auto
-}
-.about2 {
-	max-width:52.59259259259258vh;
+	font-family:'Roboto';
 }
 
-.navbar {
+body {
+	font-family: 'Roboto';
+	background-image:url("background.png");
+	background-size:fill;
+	background-repeat:no-repeat;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+
+}
+
+.center_word {
 	text-align:center;
-	margin-top:.75%;
-	margin-left:auto;
-	margin-right:auto;
-	left:0;
-	right:0
+}
+
+.menu {
+	text-decoration:none;
+	color:white;
 }
 .bar {
-	width:3%;
-	margin:0 8%;
-	display:inline-block
-}
-header {
-	width:100%;
-	position:fixed;
-	top:0;
-	left:0;
-	right:0;
-	height:4.62962962962963vh;
-	line-height:1em;
-	background-color:rgba(101,97,93,.35)
-}
-.newsvg {
-	fill:#c26000;
-	width:100px;
-	height:90px;
+
 	position:absolute;
-	top:75%;
-	bottom:0;
+	width:100%;
 	left:0;
-	right:0;
-	margin:auto
+	top:0;
+	background-color:black;
+	color:white;
+	overflow:hidden;
+	font-size:1.5em;
+	opacity:.6;
+	padding-bottom:.9%;
+	padding-top:.5%;
 }
+
+.menu_sandwich {
+	display:flex;
+	justify-content:space-around;
+
+}
+
+
+.description_box {
+	max-width:35%;
+	padding:4vh;
+	line-height:1.5em;
+}
+
+.description_wrapper {
+	padding-top:15%;
+}
+
+.contact_button {
+	padding:1vh;
+}
+
+
+.div_styling_1 {
+	background-color:rgba(150, 150, 149, .5);
+	box-shadow: 1px 1px 18px 1px #000;
+	border-radius:5px;
+}
+
+
 .fa-twitch {
 	color:#6441a5
 }
-.fa-twitter {
-	color:#38a1f3
+.fa-linkedin {
+	color:#2867b2
 }
 .btn {
 	display:inline-block;
 	width:90px;
 	height:90px;
-	background:#4c4747;
+	background-color:rgba(150, 150, 149, .4);
 	margin:10px;
 	border-radius:20%;
 	color:#f1f1f1;
 	overflow:hidden;
 	position:relative;
-	box-shadow: 6px 10px 8px 0px #454242;
+	box-shadow: 0px 0px 8px 3px #000;
 	transition:all .2s ease-in-out;
 }
 .btn i{
@@ -113,110 +96,8 @@ header {
     transform: translateY(-8px);
     transition:all .4s ease-in-out;
 }
-/*
-.btn:hover i {
-	transform:scale (1.3);
-}
-.btn::before {
-	content:"";
-	position:absolute;
-	width:30%;
-	height:150%;
-	transform:rotate(-45deg);
-	background:#4c4747;
-	left:-90%;
-	top:90%;
-}
-.btn:hover::before {
-	animation:arrow 2s infinite;
-	animation-delay:.5s;
-	top:90%;
-	left:-90%
-}
-@keyframes arrow {
-	0% {
-		left:-90%;
-		top:90%
-}
-	100% {
-		left:90%;
-		top:-90%
-}
 
+#contact_buttons {
+	text-align:center;
+	padding-top:8vh;
 }
-*/
-.achievements-list div {
-	background:#000;
-	margin:0 auto;
-	color:#fff;
-	padding:15px
-}
-.achievements-list div:nth-child(1) {
-	width:5%
-}
-.achievements-list div:nth-child(2) {
-	width:20%
-}
-.achievements-list div:nth-child(3) {
-	width:12.5%
-}
-#home {
-	background-image:url(banner.jpg)
-}
-#about {
-	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.75)),url(junie.jpg);
-
-}
-#contact {
-	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.75)),url(shift.jpg)
-}
-#photography {
-	background-image:url(photo.png)
-}
-#photography2 {
-	background-image:url(photo2.jpg)
-}
-#photography3 {
-	background-image:url(photo3.jpg)
-}
-#photography4 {
-	background-image:url(cat.jpg)
-}
-#photography5 {
-	background-image:url(brz.jpg)
-}
-#photography6 {
-	background-image:url(cat2.jpg)
-}
-#photography7 {
-	background-image:url(kitchen.jpg)
-}
-#photography8 {
-	background-image:url(phone.jpg)
-}
-#photography9 {
-	background-image:url(school.jpg)
-}
-#photography10 {
-	background-image:url(shoe.jpg)
-}
-#cinematography {
-	background-image:url(banner.jpg)
-}
-
-.newsvg {
-	animation:bounce 1.5s infinite;
-}
-
-@keyframes bounce {
-	0% {
-		transform: translateY(0%);
-	}
-	50% {
-		transform: translateY(12%);
-	}
-	100% {
-		transform: translateY(0%);
-	}
-}
-	
