@@ -45,6 +45,12 @@ body {
 
 }
 
+.menu_sandwich_styling {
+
+	font-size:1.1rem;
+
+}
+
 
 .description_box {
 	max-width:35%;
@@ -112,4 +118,7 @@ body {
   		font-size:50px;
   	}
 
+  	.menu {
+  		font-size:1em;
+  	}
 }
