@@ -66,6 +66,15 @@ body {
 	padding:1vh;
 }
 
+.resume {
+	padding:1vh;
+	margin-top:2vh;
+	font-weight:100;
+	font-size:2em;
+	text-decoration:none;
+	color:black;
+}
+
 
 .div_styling_1 {
 	background-color:rgba(150, 150, 149, .5);
