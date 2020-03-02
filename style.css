@@ -132,10 +132,11 @@ body {
   	}
 }
 
-/* force change */ 
-
 @media only screen and (max-width: 750px) {
 	body {
 		background-image:url("phone-bkg.png");
 	}
 }
+
+/* force change */s 
+
