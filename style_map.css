@@ -1,0 +1,367 @@
+* {
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    background-image: url(bdomap.png);
+    background-repeat: no-repeat;    
+    background-size:cover;
+}
+
+#wrapper {
+    display:flex;
+    justify-content:center;
+    margin-top:1vh;
+}
+
+.island {
+    position:absolute;
+    color:white;
+    font-size:1.2em;
+    font-weight:400;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#Island-Teyamal {
+    top: 900px;
+    left: 370px;
+}
+
+#Island-Rameda {
+    top: 820px;
+    left: 400px;
+}
+
+#Island-Theonil {
+    top: 880px;
+    left: 420px;
+}
+
+#Island-Modric {
+    top: 910px;
+    left: 460px;
+}
+
+#Island-Ginburrey {
+    top: 830px;
+    left: 485px;
+}
+
+#Island-Randis {
+    top: 870px;
+    left: 600px;
+}
+
+#Island-Serca {
+    top: 910px;
+    left: 595px;
+}
+
+#Island-Baeza {
+    top: 900px;
+    left: 520px;
+}
+
+#Island-Daton {
+    top: 730px;
+    left: 510px;
+}
+
+#Island-Netnume {
+    top: 790px;
+    left: 530px;
+}
+
+#Island-Oben {
+    top: 730px;
+    left: 610px;
+}
+
+#Island-Dunde {
+    top: 800px;
+    left: 610px;
+}
+
+#Island-Eberdeen {
+    top: 770px;
+    left: 610px;
+}
+
+#Island-Albresser {
+    top: 790px;
+    left: 660px;
+}
+
+#Island-Barater {
+    top: 830px;
+    left: 670px;
+}
+
+#Island-Barater {
+    top: 830px;
+    left: 670px;
+}
+
+#Island-Teste {
+    top: 600px;
+    left: 520px;
+}
+
+#Island-Almai {
+    top: 570px;
+    left: 570px;
+}
+
+#Island-Kuit {
+    top: 480px;
+    left: 670px;
+}
+
+#Island-Padix {
+    top: 600px;
+    left: 670px;
+}
+
+#Island-Arita {
+    top: 550px;
+    left: 800px;
+}
+
+#Island-Lisz {
+    top: 650px;
+    left: 810px;
+}
+
+#Island-Louruve {
+    top: 700px;
+    left: 810px;
+}
+
+#Island-Staren {
+    top: 750px;
+    left: 770px;
+}
+
+#Island-Marka {
+    top: 680px;
+    left: 880px;
+}
+
+#Island-Narvo {
+    top: 620px;
+    left: 880px;
+}
+
+#Island-Angie {
+    top: 700px;
+    left: 950px;
+}
+
+#Island-Invernen {
+    top: 600px;
+    left: 950px;
+}
+
+#Island-Balvege {
+    top: 650px;
+    left: 990px;
+}
+
+#Island-Marlene {
+    top: 670px;
+    left: 1040px;
+}
+
+#Island-Duch {
+    top: 730px;
+    left: 980px;
+}
+
+#Island-Eveto {
+    top: 710px;
+    left: 995px;
+}
+
+#Island-Mariveno {
+    top: 710px;
+    left: 1070px;
+}
+
+#Island-Tulu {
+    top: 570px;
+    left: 1020px;
+}
+
+#Island-Orffs {
+    top: 570px;
+    left: 1070px;
+}
+
+#Island-Luivano {
+    top: 770px;
+    left: 1070px;
+}
+
+#Island-Lema {
+    top: 470px;
+    left: 1070px;
+}
+
+#Island-Ephde {
+    top: 800px;
+    left: 1160px;
+}
+
+#Island-Paratama {
+    top: 750px;
+    left: 1190px;
+}
+
+#Island-Weita {
+    top: 680px;
+    left: 1190px;
+}
+
+#Island-Baremi {
+    top: 630px;
+    left: 1160px;
+}
+
+#Island-Al-Naha {
+    top: 530px;
+    left: 1200px;
+}
+
+#Island-Ajir {
+    top: 570px;
+    left: 1240px;
+}
+
+#Island-Racid {
+    top: 470px;
+    left: 1240px;
+}
+
+#Island-Kanvera {
+    top: 690px;
+    left: 1260px;
+}
+
+#Island-Arakil {
+    top: 720px;
+    left: 1280px;
+}
+
+#Island-Beiruwa {
+    top: 820px;
+    left: 1280px;
+}
+
+#Island-Taramura {
+    top: 770px;
+    left: 1320px;
+}
+
+#Island-Ostra {
+    top: 740px;
+    left: 1360px;
+}
+
+#Island-Iliya {
+    top: 640px;
+    left: 1360px;
+}
+
+#Island-Tinberra {
+    top: 300px;
+    left: 1390px;
+}
+
+#Island-Lerao {
+    top: 280px;
+    left: 1540px;
+}
+
+#Island-Portanen{
+    top: 380px;
+    left: 1560px;
+}
+
+#Island-Shasha {
+    top: 450px;
+    left: 1530px;
+}
+
+#Island-Rosevan {
+    top: 440px;
+    left: 1590px;
+}
+
+#Island-Pujara {
+    top: 620px;
+    left: 1510px;
+}
+
+#Island-Delinghart {
+    top: 750px;
+    left: 1420px;
+}
+
+#Island-Pilava {
+    top: 770px;
+    left: 1510px;
+}
+
+#Island-Sokota {
+    top: 820px;
+    left: 1610px;
+}
+
+#Island-Riyed {
+    top: 770px;
+    left: 1710px;
+}
+
+#Island-Tigris {
+    top: 670px;
+    left: 1720px;
+}
+
+#Island-Esfah {
+    top: 700px;
+    left: 1750px;
+}
+
+#Island-Orisha {
+    top: 560px;
+    left: 1750px;
+}
+
+#Island-Boa {
+    top: 510px;
+    left: 1750px;
+}
+
+#Island-Shirna {
+    top: 650px;
+    left: 1780px;
+}
+
+#Island-Kashuma {
+    top: 610px;
+    left: 1850px;
+}
+
+#Island-Halmad {
+    top: 630px;
+    left: 1850px;
+}
+
+
+
+
