@@ -26,7 +26,15 @@ html {
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
-
+#notes {
+    margin-left:25px;
+    margin-top:50px;
+    width: 250px;
+    height: 600px;
+    background-color:#36393E;
+    color:white;
+    
+}
 #Island-Teyamal {
     top: 900px;
     left: 370px;
