@@ -17,6 +17,13 @@ html {
     margin-top:1vh;
 }
 
+#button_wrapper {
+    display:flex;
+    flex-direction: column;
+    height:700px;
+    justify-content: space-between;
+}
+
 .island {
     position:absolute;
     color:white;
@@ -29,8 +36,8 @@ html {
 #notes {
     margin-left:25px;
     margin-top:50px;
-    width: 250px;
-    height: 600px;
+    width: 600px;
+    height: 250px;
     background-color:#36393E;
     color:white;
     
